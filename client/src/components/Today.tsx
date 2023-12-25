@@ -5,13 +5,12 @@ export default function Today() {
     return (
         <>
             <div className="Today">
-
                 <div className="date-title">
-                
                     <p className="title">Today</p>
                     <p className='date'>{getDate()}</p>
-                
                 </div>
+
+                <button style={{fontSize: '16px', textAlign: 'left'}}>+ Add New Task</button>
 
             </div>
         </>

@@ -3,7 +3,8 @@ import '../styles/Input.css'
 interface InputProps {
     title: string;
     type: string;
-    required: boolean;
+    required?: boolean;
+    actionItem?: boolean;
 }
 
 export default function ({title, type, required}: InputProps) {

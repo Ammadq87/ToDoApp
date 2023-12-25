@@ -15,9 +15,9 @@ export default function Login() {
 
                 <p className="title">ToDoApp - Login</p>
 
-                <Input title="Email" type="email" required={false}/>
+                <Input title="Email" type="email"/>
 
-                <Input title="Password" type="password" required={false}/>
+                <Input title="Password" type="password"/>
 
                 <Links links={links}/>
 
