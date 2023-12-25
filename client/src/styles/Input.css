@@ -1,0 +1,15 @@
+.Input span {
+    display: block;
+    text-align: left;
+}
+
+.Input input {
+    width: 95%;
+    height: 2em;
+    margin-left: 0%;
+    display: flex;
+    margin-bottom: 1.5em;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}

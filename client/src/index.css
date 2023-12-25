@@ -3,9 +3,9 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* color-scheme: light dark; */
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -42,16 +42,39 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #0080ff;
   cursor: pointer;
   transition: border-color 0.25s;
+  color: white;
+  width: 100%;
 }
 button:hover {
-  border-color: #646cff;
+  background-color: #2994ff;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.required {
+  color: red;
+  font-weight: bold;
+  display: flex;
+}
+
+.Container {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  margin-bottom: 150px;
+}
+
+.Container .title {
+  font-size: x-large;
+  font-weight: 700;
+  color: #004589;
 }
 
 @media (prefers-color-scheme: light) {
