@@ -1,6 +1,10 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* max-width: 1280px; */
+  /* padding: 0%; */
+  /* margin: 0; */
+  height: 99vh;
+  margin: 0;
+  border: 1px solid red;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

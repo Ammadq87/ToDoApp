@@ -23,11 +23,8 @@ a:hover {
 }
 
 body {
+  height: 100%;
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -69,12 +66,17 @@ button:focus-visible {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 350px;
   margin-bottom: 150px;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  margin: auto;
 }
 
 .Container .title {
   font-size: x-large;
   font-weight: 700;
   color: #004589;
+  display: block;
 }
 
 @media (prefers-color-scheme: light) {

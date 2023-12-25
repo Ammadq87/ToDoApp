@@ -1,0 +1,8 @@
+.Home {
+    border: 1px solid blue;
+    margin: 2em;
+    padding: 0%;
+    width: 100%;
+    display: flex;
+    
+}
