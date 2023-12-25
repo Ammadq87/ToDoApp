@@ -1,4 +1,5 @@
 import '../styles/Today.css'
+import Item from './Item';
 
 export default function Today() {
     
@@ -11,6 +12,7 @@ export default function Today() {
                 </div>
 
                 <button style={{fontSize: '16px', textAlign: 'left'}}>+ Add New Task</button>
+
 
             </div>
         </>

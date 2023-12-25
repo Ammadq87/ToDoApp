@@ -1,13 +1,15 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import {ItemProp} from './Interfaces'
 
-export default function Item() {
+export default function Item(props: ItemProp) {
     return (
         <>
         
             <div className="Item">
-                <span>hello</span>
-                <FontAwesomeIcon icon={faCoffee}/>
+                <input type="checkbox" />
+
+                <FontAwesomeIcon icon={faChevronRight}/>
             </div>
 
         </>
