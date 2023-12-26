@@ -1,24 +1,19 @@
 import '../styles/Input.css'
+import { InputProps } from './Interfaces'
 
-interface InputProps {
-    title: string;
-    type: string;
-    required: boolean;
-}
-
-export default function ({title, type, required}: InputProps) {
+export default function (props: InputProps) {
     return (
         <>
             <div className="Input">
-                <span>{title} 
+                <span>{props.title} 
                 
                 {
-                    required &&
+                    props?.required &&
                     <span style={{display: 'inline', color: 'red'}}> *</span>
                 }
                 
                 </span>
-                <input type={type} />
+                <input type={props.type} />
             </div>
 
         </>

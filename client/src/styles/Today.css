@@ -1,0 +1,35 @@
+.Today {
+    width: 34%;
+    font-size: 48px;
+    padding: 0.25em;
+}
+
+.Today .date-title {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 0%;
+}
+
+.Today .date-title .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 0%;
+    padding: 0%;
+    padding-left: 0.25rem;
+}
+
+.Today .date-title .date {
+    font-size: 1rem;
+    margin: 0;  
+    padding-left: 0.25rem;
+}
+
+.Today .items-container {
+    margin-top: 1rem;
+    padding: 0%;
+}

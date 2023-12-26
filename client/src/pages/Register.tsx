@@ -1,11 +1,7 @@
 import Input from "../components/Input"
 import Links from "../components/Links";
 import '../styles/Login.css'
-
-interface Link {
-    title: string;
-    link: string;
-}
+import { Link } from "../components/Interfaces";
 
 export default function Register() {
     const links: Link[] = [{title: 'Have an account?', link: '/login'}];

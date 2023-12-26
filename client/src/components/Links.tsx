@@ -1,20 +1,12 @@
 import '../styles/Links.css'
+import { LinkProps } from '../components/Interfaces'
 
-interface Link {
-    title: string;
-    link: string;
-}
-
-interface InputProps {
-    links: Link[];
-}
-
-export default function ({links}: InputProps) {
+export default function (props: LinkProps) {
     return (
         <>
             <div className="Links">
                 {
-                    links.map((l, i) => {
+                    props.links.map((l, i) => {
                         return (
                             <a className='link' href={l.link} key={i}>{l.title}</a>
                         )
