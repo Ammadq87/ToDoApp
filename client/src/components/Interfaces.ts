@@ -1,3 +1,13 @@
+// Utils
+export  const TagColor: Record<string, string> = {
+    red: '#ff5154',
+    orange: '#fc7a1e',
+    yellow: '#ffd447',
+    green: '#0cf574',
+    blue: '#254e70',
+    purple: '#9448bc'
+};
+
 // components/Item.tsx
 export interface ItemProp {
     title: string;

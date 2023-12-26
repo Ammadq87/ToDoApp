@@ -1,8 +1,15 @@
 import '../styles/Today.css'
+import { ItemProp, TagColor } from './Interfaces';
 import Item from './Item';
 
 export default function Today() {
-    
+
+    const items: ItemProp[] = [
+        {title: 'Call Uber for Background Check', tags: [{tag: 'Misc', color: TagColor.red}, {tag: 'Uber', color: TagColor.blue}]},
+        {title: 'Get in QLess for EECS 3482', tags: [{tag: 'School', color: TagColor.orange}]},
+        {title: 'Do groceries'}
+    ]
+
     return (
         <>
             <div className="Today">
@@ -12,6 +19,16 @@ export default function Today() {
                 </div>
 
                 <button style={{fontSize: '16px', textAlign: 'left'}}>+ Add New Task</button>
+
+                <div className="items-container">
+                    {
+                        items.map((item, i) => {
+                            return (
+                                <Item {...item} key={i}/>
+                            )
+                        })
+                    }
+                </div>
 
 
             </div>
